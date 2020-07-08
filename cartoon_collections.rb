@@ -26,7 +26,14 @@ def long_planeteer_calls(array)
   return moreThanFour
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  foods.each do | yums |
+    cheese_types.each do | cheeseYums |
+      if (cheeseYums == yums)
+        return yums
+      end
+    end
+  end
+  return nil
 end
