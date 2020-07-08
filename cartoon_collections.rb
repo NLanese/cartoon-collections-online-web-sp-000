@@ -1,11 +1,15 @@
 def roll_call_dwarves(names)
-  names.each do |dwarf|
+  names.each do | dwarf |
     puts dwarf
   end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array)
+  return_array = []
+  array.each do | calls |
+    newCall = calls.capitalize
+    newCall = newCall + "!"
+    return_array << newCall
 end
 
 def long_planeteer_calls# code an argument here
