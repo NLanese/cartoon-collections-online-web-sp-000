@@ -10,6 +10,8 @@ def summon_captain_planet(array)
     newCall = calls.capitalize
     newCall = newCall + "!"
     return_array << newCall
+  end
+  return return_array
 end
 
 def long_planeteer_calls# code an argument here
